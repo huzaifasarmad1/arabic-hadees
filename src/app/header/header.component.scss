@@ -1,0 +1,436 @@
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.space{
+    margin-right: 0.2em;
+    margin-left: 0.2em;
+}
+.container-fluid {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 0;
+    padding-right: 0;
+
+}
+.navbar {
+    position: relative;
+    min-height: 60px;
+    border: 1px solid transparent;
+    border-radius: 0;
+    
+
+}
+.navbar-inverse {
+    height: 50px;
+    background-color: #3a8789;
+    border-color: #2b6465;
+}
+.navbar-brand>img {
+    display: block;
+}
+.img-logo {
+    margin-top: 3px;
+    height: 50px;
+    
+}
+img {
+    vertical-align: middle;
+     border: 0;
+     float: left;
+}
+.navbar-default .navbar-toggle {
+    border-color: #ddd;
+}
+.navbar-toggle {
+    float: left;
+    margin-left: 15px;
+    margin-right: auto;
+     position: relative;
+    padding: 9px 10px;
+    margin-top: 13px;
+    margin-bottom: 13px;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+.container>.navbar-header, .container-fluid>.navbar-header, .container>.navbar-collapse, .container-fluid>.navbar-collapse {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.navbar-default {
+    background-color: #f5f4f4;
+    border-color: #e5e3e3;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: #e5e3e3;
+}
+.text-center {
+    text-align: center;
+}
+a {
+    color: #3a8789;
+    text-decoration: none;
+    background-color: transparent;
+}
+.navbar-brand {
+    float: left;
+    padding: 19px 15px;
+    font-size: 20px;
+    line-height: 22px;
+    height: 60px;
+}
+.navbar-collapse {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.nav {
+    padding-right: 0;
+    padding-left: initial;
+    margin-bottom: 0;
+    padding-left: 0;
+    list-style: none;
+}
+.navbar-nav {
+    float: right;
+
+}
+.nav>li {
+    position: relative;
+    display: block;
+    
+}
+.navbar-default .navbar-nav>li>a {
+    color: #000;
+    font-size: 20px;
+   
+}
+.navbar-nav>li> {
+
+
+}
+.navbar-nav>li>a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+line-height: 22px;
+
+}
+.nav>li>a {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+}
+a {
+    color: #3a8789;
+        background-color: transparent;
+    text-decoration: none;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: #e5e3e3;
+}
+.navbar-form {
+       padding: 10px 15px;
+       margin-top: 12px;
+    margin-bottom: 12px;
+}
+input, button, select, textarea {
+    
+    font-size: inherit;
+    line-height: inherit;
+}
+button, input, optgroup, select, textarea {
+    color: inherit;
+    font: inherit;
+    margin: 0;
+}
+.form-control{
+width: 15em;
+margin-right: 52.3em;
+margin-top: 0.7em;
+height: 2.2em;
+
+
+
+}
+.ui-widget input, .ui-widget select, .ui-widget textarea, .ui-widget button {
+    font-size: 1em;
+    text-align: right;
+}
+
+button, select {
+    text-transform: none;
+}
+button {
+    overflow: visible;
+}
+button, input, optgroup, select, textarea {
+    font: inherit;
+    margin: 0;
+}
+
+.search-body {
+    background: #fff;
+    margin-top: -10px;
+    margin-bottom: -10px;
+    padding: 0px 10px;
+}
+.visible-xs, .visible-sm, .visible-md, .visible-lg {
+    display: none !important;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #888;
+}
+.navbar-toggle .icon-bar {
+    display: block;
+    width: 22px;
+    height: 2px;
+    border-radius: 1px;
+}
+.navbar-toggle .icon-bar+.icon-bar {
+    margin-top: 4px;
+}
+.collapse {
+    display: none;
+}
+.navbar-collapse {
+overflow-x: visible;
+}
+.navbar-nav {
+    margin: 9.5px -15px;
+}
+ul, ol {
+    margin-top: 0;
+    margin-bottom: 11px;
+}
+
+.btn {
+    position: absolute;
+    left:17px;
+    top: 19px;
+    width: 3.5em;
+ 
+    display: inline-block;
+    font-weight: normal;
+    text-align: center;
+    cursor: pointer;
+    padding: 6px 12px;
+    font-size: 16px;
+    border-radius: 4px;
+    height: 2.2em;
+      border-width: 1px;
+    border-color:rgb(0 0 0 / 13%);
+    background-color: transparent;
+    
+
+    
+}
+.btn :hover {
+    color: #adadad;
+}
+
+.button{
+    font: inherit;
+    margin: 0;
+    overflow: visible;
+}
+
+button, select {
+    text-transform: none;
+}
+
+.btn-default:active, .btn-default.active, .open>.dropdown-toggle.btn-default {
+    color: #333;
+    background-color: #e6e6e6;
+    border-color: #ddd;
+}
+.btn-default:hover {
+    color:#333;
+    background-color: rgb(243, 243, 243);
+    border-color: #adadad;
+}
+.btn:active, .btn.active {
+    outline: 0;
+    background-image: none;
+    -webkit-box-shadow: inset 0 3px 5px rgb(0 0 0 / 13%);
+    box-shadow: inset 0 3px 5px rgb(0 0 0 / 13%);
+}
+
+body {
+    background-image: url(../../assets/img/symphony.png);
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    line-height: 1.42857143;
+    color: #333;
+     direction: rtl;
+}
+.search-area-wrapper {
+    padding: 10px;
+    background: #43cea2;
+    background: -webkit-linear-gradient(to left, #43cea2 , #185a9d);
+    background: linear-gradient(to left, #43cea2 , #185a9d);
+}
+.tp {
+    color: #fff;
+    font-weight: bold;
+    
+}
+.tf {
+    color: #fff;
+    font-weight: bold;
+    width: 54em;
+}
+
+h2, .h2 {
+    font-size: 34px;
+}
+h1, .h1, h2, .h2, h3, .h3 {
+    margin-top: 22px;
+    margin-bottom: 11px;
+}
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    
+    font-weight: 500;
+    line-height: 1.1;
+
+}
+.search-control {
+    padding: 20px 50px;
+    
+}
+input, button, select, textarea {
+    
+    font-size: inherit;
+    line-height: inherit;
+}
+button, input, optgroup, select, textarea {
+    color: inherit;
+    font: inherit;
+    margin: 0;
+}
+.form-control2 {
+bottom: 0.6em;
+height: 25px;
+    padding: 6px ;
+    background-color: #fff;
+    border: 1px solid rgb(233, 231, 231);
+    border-radius: 4px;
+    margin-left:80px;
+    outline: #ddd;
+    width: 63em;
+
+}
+.btn-default {
+    color: #333;
+    background-color: #fff;
+    border-color: #ccc;
+}
+
+
+@media (min-width: 768px){
+.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
+    margin-left: -15px;
+}
+.navbar-header {
+    float: right;
+}
+.container>.navbar-header, .container-fluid>.navbar-header, .container>.navbar-collapse, .container-fluid>.navbar-collapse {
+    margin-right: 0;
+    margin-left: 0;
+}
+.navbar-collapse.collapse {
+    display: block !important;
+    height: 3em !important;
+    padding-bottom: 0;
+    overflow: visible !important;
+}
+.img-logo {
+    margin-top: -5px;
+    height: 50px;
+     margin-left: -15px;
+     float: left;
+     margin-right: 1em;
+}
+img {
+    vertical-align: middle;
+     border: 0;
+     float: left;
+}
+.navbar-brand>img {
+    display: block;
+}
+
+.navbar-toggle {
+    display: none;
+}
+.navbar-brand {
+    float: left;
+}
+.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
+    margin-right: -15px;
+    margin-left: auto;
+}
+.navbar-collapse {
+    width: auto;
+    border-top: 0;
+    box-shadow: none;
+}
+.navbar-nav {
+    float: right;
+    margin: 0;
+    
+
+}
+.navbar-nav>li {
+    float: right;
+    font-size: 24px;
+}
+.navbar-nav>li>a {
+    padding-top: 19px;
+    padding-bottom: 19px;
+}
+.navbar-right:last-child {
+    margin-left: -15px;
+    margin-right: auto;
+}
+.navbar-right {
+    float: left!important;
+    margin-left: -15px;
+    margin-right: initial;
+}
+
+
+.navbar-form .form-control {
+    display: inline-block;
+    width: auto;
+    vertical-align: middle;
+}
+
+.navbar-header {
+    float: right;
+   
+}
+
+
+
+}
+
+@media (min-width: 1200px){
+.container {
+    width: 1210px;
+}
+}
+
+
+
+.nav-link{
+    text-align: center;
+    margin-top: -0.5em;
+    font-size: 20px;
+    color: #000;
+    font-weight: 500;
+}
