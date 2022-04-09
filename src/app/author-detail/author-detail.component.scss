@@ -1,0 +1,185 @@
+.img-bannar {
+    width: 100%;
+  }
+  .books {
+    padding: 10px;
+  }
+  .uk-margin-large-top {
+    margin-top: 50px !important;
+  }
+  .alert-info {
+    background-color: #3a8789;
+    border-color: #2f7067;
+    color: #3a8789;
+  }
+  .alert {
+    height: 50px;
+    padding: 15px;
+    margin-bottom: 22px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    
+  }
+  .white-color {
+    color: #fff;
+    float: right;
+    font-size: 20px;
+  }
+  p {
+    margin: 0 0 11px;
+  }
+  
+ 
+  .line-text{
+    font-size: 20px;
+    margin-top: 0em;
+  }
+  .alert-warning {
+    background-color: #fcf8e3;
+    border-color: #faebcc;
+    color: #8a6d3b;
+  }
+  .alert {
+    padding: 15px;
+    margin-bottom: 22px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+  }
+  .margin-top {
+    margin-top: 60px;
+  }
+  .text-center {
+    text-align: center;
+  }
+  
+  .btn-ms {
+    font-size: 20px;
+  }
+  .btn-primary {
+    color: #fff;
+    background-color: #3a8789;
+    border-color: #327577;
+  }
+  .btn {
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: normal;
+    text-align: center;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    padding: 6px 12px;
+    font-size: 19px;
+    line-height: 1.42857143;
+    border-radius: 4px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  a {
+    color: #3a8789;
+    text-decoration: none;
+  }
+  @media (min-width: 1200px){
+  .container {
+      width: 1210px;
+  }
+  }
+  
+  body {
+    background-image: url(../../assets/img/symphony.png);
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    line-height: 1.42857143;
+    color: #333;
+     direction: rtl;
+  }
+  
+  //footer
+  .text-center{
+    margin-left: 24em;
+    margin-right: 24em;
+    margin-top: -0.5em;
+  }
+  .tf{
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  .navbar {
+    position: relative;
+    min-height: 60px;
+    border: 1px solid transparent;
+    border-radius: 0;
+    
+  }
+  .navbar-inverse {
+    height: 50px;
+    background-color: #3a8789;
+    border-color: #2b6465;
+    width: 100%;
+  }
+  
+  h2, .h2 {
+    font-size: 34px;
+    color: #3a8789;
+  }
+  
+
+  
+  ///book css
+
+  .img-book {
+    height: 150px;
+}
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    float: right;
+}
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2,
+ .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3,
+  .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5,
+   .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6,
+    .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, 
+    .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, 
+    .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11,
+     .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+    position: relative;
+    min-height: 1px;
+    
+   
+}
+.book-ui {
+    background: #fff;
+    box-shadow: 2px 3px 3px #000;
+    height: 150px;
+}
+.text-info1 {
+    color: #3a8789;
+}
+.row {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.img-responsive{
+    display: block;
+    max-width: 100%;
+}
+
+.uk-margin-top {
+    margin-top: 15px !important;
+}
+
+.space{
+    margin-top: 3em;
+}

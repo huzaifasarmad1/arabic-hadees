@@ -1,0 +1,150 @@
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.shadow {
+  box-shadow: 2px 3px 5px #000;
+}
+
+body {
+  background: url(../../assets/img/symphony.png);
+  margin: 0;
+  padding: 0;
+    font-size: 16px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+    direction: rtl;
+
+}
+
+.about {
+  background: #fff;
+}
+.panel-body {
+  padding: 15px;
+}
+
+
+//comments section 
+
+.authors {
+  margin-top: -3em;
+  margin-bottom: -2em;
+  padding: 10px;
+  background: #fff;
+}
+
+.uk-margin-bottom {
+  margin-bottom: 15px !important;
+}
+.panel-body {
+  padding: 15px;
+}
+.uk-margin-large-bottom {
+  margin-bottom: 50px !important;
+}
+.uk-margin-large-top {
+  margin-top: 50px !important;
+}
+input, button, select, textarea {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+.form-group {
+  margin-bottom: 15px;
+}
+label {
+  display: inline-block;
+  max-width: 100%;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+.form-control {
+  display: block;
+  width: 100%;
+  height: 36px;
+  padding: 6px 12px;
+  font-size: 16px;
+  line-height: 1.42857143;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%);
+  box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%);
+  -webkit-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+  -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+  transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+.form-group {
+  margin-bottom: 15px;
+}
+.btn-primary {
+  color: #fff;
+  background-color: #3a8789;
+  border-color: #327577;
+}
+.btn {
+  display: inline-block;
+  margin-bottom: 0;
+  font-weight: normal;
+  text-align: center;
+  vertical-align: middle;
+  touch-action: manipulation;
+  cursor: pointer;
+  background-image: none;
+  border: 1px solid transparent;
+  white-space: nowrap;
+  padding: 6px 12px;
+  font-size: 16px;
+  line-height: 1.42857143;
+  border-radius: 4px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+textarea.form-control {
+  height: auto;
+}
+
+form {
+  display: block;
+  margin-top: 0em;
+}
+
+//footer
+.text-center{
+    margin-left: 24em;
+    margin-right: 24em;
+    margin-top: -0.5em;
+  }
+  .tf{
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  .navbar {
+    position: relative;
+    min-height: 60px;
+    border: 1px solid transparent;
+    border-radius: 0;
+    
+  }
+  .navbar-inverse {
+    height: 50px;
+    background-color: #3a8789;
+    border-color: #2b6465;
+    width: 100%;
+  }
+  
+  h2, .h2 {
+    font-size: 34px;
+  }  

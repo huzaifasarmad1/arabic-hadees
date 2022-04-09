@@ -1,46 +1,45 @@
-.container {
-    margin-right: auto;
-    margin-left: auto;
-    padding-left: 15px;
-    padding-right: 15px;
-}
-.container-fluid {
-    margin-right: auto;
-    margin-left: auto;
-    padding-left: 15px;
-    padding-right: 15px;
-
-}
-.navbar {
+//footer
+.text-center{
+    margin-left: 26em;
+    margin-right: 26em;
+    margin-top: -0.8em;
+  }
+  .tf{
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  .navbar {
     position: relative;
     min-height: 60px;
     border: 1px solid transparent;
     border-radius: 0;
     
-
-}
-.navbar-inverse {
+  }
+  .navbar-inverse {
     height: 50px;
     background-color: #3a8789;
     border-color: #2b6465;
-}
-.tf {
-    color: #fff;
-    font-weight: bold;
-    width: 57.5em;
-}
-.nav {
-    display: flex;
-    flex-wrap: wrap;
-    padding-left: 0;
-    margin-bottom: 0;
-    list-style: none;
-}
-navbar {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
-    padding-top: .5rem;
-    padding-bottom: .5rem;
-}
+    width: 100%;
+  }
+  
+  h2, .h2 {
+    font-size: 34px;
+    color: #3a8789;
+  }
+  
+  .container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  
+  .shadow {
+    box-shadow: 2px 3px 5px #000;
+  }
+
+  .footer-position{
+   
+  }

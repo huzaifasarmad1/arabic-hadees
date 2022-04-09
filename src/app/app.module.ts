@@ -12,10 +12,9 @@ import { HeaderComponent } from './header/header.component';
 import { TopicsComponent } from './topics/topics.component';
 import { AllBooksComponent } from './all-books/all-books.component';
 import { FooterComponent } from './footer/footer.component';
-import { CommentComponent } from './comment/comment.component';
-
-
-
+import { CommentsComponent } from './comments/comments.component';
+import { AuthorDetailComponent } from './author-detail/author-detail.component';
+import { NarratorDetailComponent } from './narrator-detail/narrator-detail.component';
 
 
 @NgModule({
@@ -30,8 +29,12 @@ import { CommentComponent } from './comment/comment.component';
     TopicsComponent,
     AllBooksComponent,
     FooterComponent,
-    CommentComponent
+    CommentsComponent,
+    AuthorDetailComponent,
+    NarratorDetailComponent
+
   ],
+  
   imports: [
     BrowserModule,
     AppRoutingModule,
