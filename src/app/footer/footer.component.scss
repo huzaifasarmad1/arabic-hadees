@@ -1,45 +1,77 @@
-//footer
-.text-center{
-    margin-left: 26em;
-    margin-right: 26em;
-    margin-top: -0.8em;
-  }
-  .tf{
-    font-size: 18px;
-    font-weight: bold;
-    color: #fff;
-  }
-  
-  .navbar {
-    position: relative;
-    min-height: 60px;
-    border: 1px solid transparent;
-    border-radius: 0;
-    
-  }
-  .navbar-inverse {
-    height: 50px;
-    background-color: #3a8789;
-    border-color: #2b6465;
-    width: 100%;
-  }
-  
-  h2, .h2 {
-    font-size: 34px;
-    color: #3a8789;
-  }
-  
-  .container {
-    margin-right: auto;
-    margin-left: auto;
-    padding-left: 15px;
-    padding-right: 15px;
-  }
-  
-  .shadow {
-    box-shadow: 2px 3px 5px #000;
-  }
+//////new foooter code responsive
 
-  .footer-position{
-   
+.footer_section {
+  background-color: #327577;
+  padding-top: 0.1em;
+  text-align: center;
+  color: #fff;
+  
+}
+
+.footer_section .footer-brand {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #ffffff;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+
+
+.footer-info {
+  text-align: center;
+  margin-top: 25px;
+}
+
+.footer-info p {
+  color: #ffffff;
+  margin: 0;
+  padding-bottom: 25px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.footer-info p a {
+  color: inherit;
+}
+
+
+
+
+.shadow {
+  box-shadow: 2px 3px 5px #000;
+}
+
+ 
+body {
+  background-image: url(../../assets/img/symphony.png);
+}  
+
+
+
+
+.container>.navbar-header, .container-fluid>.navbar-header, .container>.navbar-collapse, .container-fluid>.navbar-collapse {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.container-fluid {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 0;
+  padding-right: 0;
+
+}
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+@media (min-width: 1400px){
+  .container {
+      width: 1210px;
   }
+  }
+  

@@ -12,4 +12,5 @@ export class NarratorDetailComponent implements OnInit {
   ngOnInit(): void {
   }
 
+   
 }

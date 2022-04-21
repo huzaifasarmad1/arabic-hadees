@@ -1,0 +1,160 @@
+.img-bannar {
+    width: 100%;
+  }
+  .books {
+    padding: 10px;
+    background-color: #fff;
+  }
+.space{
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+.space1{
+  margin-top: 3em;
+  margin-bottom:1em;
+}
+  .divider{
+    width:0.8em;
+    height:auto;
+    display:inline-block;
+  }
+  .title{
+    font-size: 30px;
+    color: #3a8789;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+  .white-color {
+    color: #fff;
+    float: right;
+    font-size: 20px;
+  }
+  p {
+    margin: 0 0 11px;
+  }
+
+  a{
+      color: #3a8789;
+  }
+
+
+  .margin-top {
+    margin-top: 60px;
+  }
+  .text-center {
+    text-align: center;
+  }
+  
+  .btn-ms {
+    font-size: 20px;
+  }
+  .btn-primary {
+    color: #fff;
+    background-color: #3a8789;
+    border-color: #327577;
+  }
+  .btn {
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: normal;
+    text-align: center;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    padding: 6px 12px;
+    font-size: 19px;
+    line-height: 1.42857143;
+    border-radius: 4px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  a {
+    color: #3a8789;
+    text-decoration: none;
+  }
+  @media (min-width: 1200px){
+  .container {
+      width: 1210px;
+  }
+  }
+  
+  body {
+    background-image: url(../../assets/img/symphony.png);
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    line-height: 1.42857143;
+    color: #333;
+     direction: rtl;
+  }
+  
+  //footer
+  
+///new try
+.break{
+  margin-top: 0.2em;
+  margin-bottom: 0.2em;
+}
+.accordion-button{
+background-color: #327577;
+color: #fff;
+font-size: 20px;
+font-weight: bold;
+border-color:#327577;
+}
+
+.panel-body {
+  padding: 15px;
+}
+
+.text1{
+  color: #327577;
+}
+
+.table {
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: 22px;
+  background-color: transparent;
+  border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.table>tbody>tr>td, .table>tfoot>tr>td {
+  padding: 8px;
+  line-height: 1.42857143;
+  vertical-align: top;
+  border-top: 1px solid #ddd;
+}
+td, th {
+  padding: 0;
+  display: table-cell;
+
+}
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+.heading{
+font-weight: bold;
+font-size: 20px;
+color: #333;
+}
+
+.value1{
+  font-size: 18px;
+  color: #333;
+}
+
+li {
+  display: list-item;
+  margin-right: -4em;
+}

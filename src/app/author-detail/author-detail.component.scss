@@ -101,35 +101,7 @@
   }
   
   //footer
-  .text-center{
-    margin-left: 24em;
-    margin-right: 24em;
-    margin-top: -0.5em;
-  }
-  .tf{
-    font-size: 18px;
-    font-weight: bold;
-    color: #fff;
-  }
   
-  .navbar {
-    position: relative;
-    min-height: 60px;
-    border: 1px solid transparent;
-    border-radius: 0;
-    
-  }
-  .navbar-inverse {
-    height: 50px;
-    background-color: #3a8789;
-    border-color: #2b6465;
-    width: 100%;
-  }
-  
-  h2, .h2 {
-    font-size: 34px;
-    color: #3a8789;
-  }
   
 
   
@@ -165,6 +137,7 @@
 }
 .text-info1 {
     color: #3a8789;
+    
 }
 .row {
     margin-left: -15px;
@@ -178,8 +151,15 @@
 
 .uk-margin-top {
     margin-top: 15px !important;
+    font-size: 16px;
+    margin-right: -0.5em;
 }
+
 
 .space{
     margin-top: 3em;
+}
+          
+h4{
+  font-size: 18px;
 }

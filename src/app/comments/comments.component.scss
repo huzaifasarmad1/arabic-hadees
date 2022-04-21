@@ -3,6 +3,7 @@
   margin-left: auto;
   padding-left: 15px;
   padding-right: 15px;
+  padding-bottom: 0%;
 }
 
 .shadow {
@@ -119,32 +120,29 @@ form {
   margin-top: 0em;
 }
 
-//footer
-.text-center{
-    margin-left: 24em;
-    margin-right: 24em;
-    margin-top: -0.5em;
+
+.container>.navbar-header, .container-fluid>.navbar-header, .container>.navbar-collapse, .container-fluid>.navbar-collapse {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.container-fluid {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 0;
+  padding-right: 0;
+
+}
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+@media (min-width: 1400px){
+  .container {
+      width: 1210px;
   }
-  .tf{
-    font-size: 18px;
-    font-weight: bold;
-    color: #fff;
   }
   
-  .navbar {
-    position: relative;
-    min-height: 60px;
-    border: 1px solid transparent;
-    border-radius: 0;
-    
-  }
-  .navbar-inverse {
-    height: 50px;
-    background-color: #3a8789;
-    border-color: #2b6465;
-    width: 100%;
-  }
-  
-  h2, .h2 {
-    font-size: 34px;
-  }  

@@ -12,9 +12,23 @@ import { HeaderComponent } from './header/header.component';
 import { TopicsComponent } from './topics/topics.component';
 import { AllBooksComponent } from './all-books/all-books.component';
 import { FooterComponent } from './footer/footer.component';
+import { BenefitsComponent } from './benefits/benefits.component';
+import { IkhlaqComponent } from './ikhlaq/ikhlaq.component';
+import { ImaliComponent } from './imali/imali.component';
+import { TarjmaOTwarekhComponent } from './tarjma-o-twarekh/tarjma-o-twarekh.component';
+import { TafseerEQuranComponent } from './tafseer-e-quran/tafseer-e-quran.component';
+import { ZahdORqaiqComponent } from './zahd-o-rqaiq/zahd-o-rqaiq.component';
+import { SaneenOMotaatComponent } from './saneen-o-motaat/saneen-o-motaat.component';
+import { SeerahOShumailComponent } from './seerah-o-shumail/seerah-o-shumail.component';
+import { MahaahOMustakharjatComponent } from './mahaah-o-mustakharjat/mahaah-o-mustakharjat.component';
+import { AqeedahComponent } from './aqeedah/aqeedah.component';
+import { AloomAlHadeesComponent } from './aloom-al-hadees/aloom-al-hadees.component';
+import { AloomQuranComponent } from './aloom-quran/aloom-quran.component';
 import { CommentsComponent } from './comments/comments.component';
 import { AuthorDetailComponent } from './author-detail/author-detail.component';
 import { NarratorDetailComponent } from './narrator-detail/narrator-detail.component';
+import { BookDetailsComponent } from './book-details/book-details.component';
+import { DisplayContentComponent } from './display-content/display-content.component';
 
 
 @NgModule({
@@ -29,9 +43,23 @@ import { NarratorDetailComponent } from './narrator-detail/narrator-detail.compo
     TopicsComponent,
     AllBooksComponent,
     FooterComponent,
+    BenefitsComponent,
+    IkhlaqComponent,
+    ImaliComponent,
+    TarjmaOTwarekhComponent,
+    TafseerEQuranComponent,
+    ZahdORqaiqComponent,
+    SaneenOMotaatComponent,
+    SeerahOShumailComponent,
+    MahaahOMustakharjatComponent,
+    AqeedahComponent,
+    AloomAlHadeesComponent,
+    AloomQuranComponent,
     CommentsComponent,
     AuthorDetailComponent,
-    NarratorDetailComponent
+    NarratorDetailComponent,
+    BookDetailsComponent,
+    DisplayContentComponent
 
   ],
   
